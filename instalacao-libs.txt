@@ -1,0 +1,11 @@
+# 1) Atualizar instalador
+python -m pip install --upgrade pip wheel setuptools
+
+# 2) Núcleo de ciência de dados
+python -m pip install --upgrade numpy pandas scipy scikit-learn matplotlib seaborn
+
+# 3) Modelagem opcional usada no notebook
+python -m pip install --upgrade lightgbm shap
+
+# 4) Gemini (Google AI) e dependências citadas
+python -m pip install --upgrade google-genai pydantic typing_extensions==4.15.0
